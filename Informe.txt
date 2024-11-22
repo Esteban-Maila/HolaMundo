@@ -1,0 +1,82 @@
+1. Creación del Archivo "Hola Mundo" en NetBeans
+Abrir NetBeans: Inicia NetBeans en tu computadora.
+
+Crear un nuevo proyecto:
+
+Ve a File > New Project.
+
+Selecciona Java en las categorías y Java Application en los proyectos.
+
+Haz clic en Next.
+
+Configurar el proyecto:
+
+Asigna un nombre al proyecto, por ejemplo, HolaMundo.
+
+Desmarca la opción Create Main Class.
+
+Haz clic en Finish.
+
+Crear una nueva clase:
+
+Haz clic derecho en el paquete predeterminado en el panel Projects.
+
+Selecciona New > Java Class.
+
+Nombra la clase HolaMundo y haz clic en Finish.
+
+Escribir el código "Hola Mundo":
+
+Abre la clase HolaMundo y escribe el siguiente código:
+
+java
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola, Mundo!");
+    }
+}
+Guardar y ejecutar el archivo:
+
+Guarda el archivo y ejecuta el programa para asegurarte de que funciona correctamente.
+
+2. Subir el Archivo a GitHub
+Inicializar un repositorio Git:
+
+Abre la terminal de Windows (Win + R, escribe cmd y presiona Enter).
+
+Navega a la carpeta de tu proyecto usando cd C:\Users\maila\Documents\NetBeansProjects_.
+
+Ejecuta git init para inicializar un repositorio Git.
+
+Agregar y confirmar los cambios:
+
+Ejecuta git add . para agregar todos los archivos.
+
+Ejecuta git commit -m "Primer commit: Hola Mundo" para confirmar los cambios.
+
+Crear un repositorio en GitHub:
+
+Ve a GitHub y crea un nuevo repositorio.
+
+Copia la URL del repositorio.
+
+Subir los archivos a GitHub:
+
+En la terminal, ejecuta git remote add origin URL_DEL_REPOSITORIO (reemplaza URL_DEL_REPOSITORIO con la URL de tu repositorio).
+
+Ejecuta git push -u origin master para subir los archivos.
+
+3. Crear y Subir el Informe a GitHub
+Crear el archivo de informe:
+
+Abre un editor de texto y escribe un informe detallando los pasos que seguiste.
+
+Guarda el archivo como informe.txt.
+
+Subir el informe a GitHub:
+
+En la terminal, ejecuta git add informe.txt.
+
+Ejecuta git commit -m "Agregar informe del proceso".
+
+Ejecuta git push para subir el informe.
